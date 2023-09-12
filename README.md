@@ -1,6 +1,8 @@
 # DeepDreamT2
 Este repositorio contiene el desarrollo del equipo DeepDream Team del taller 2 del curso INF398.
 
+Para ejecutar los códigos incluidos en este repositorio se deben guardar los datos en una carpeta llamada **Data**
+
 ## Overview
 Este desafío consiste en lograr mediante el uso de distintas técnicas de preprocesamiento, la creación de un dataset capaz de ilustrar correctamente el problema de predicción de riesgo crediticio. Facilitando así el entrenamiento y obtención de buenos resultados en modelos de aprendizaje automático.
 
@@ -33,7 +35,3 @@ Sus predicciones deben ser enviadas a la plataforma en un archivo CSV simple de 
 
 ### Métrica
 Las predicciones enviadas serán comparadas con la clase correcta usando AUC (área bajo la curva ROC).
-
-\begin{align*}
-    TPR\left(T\right)&:T\rightarrow y\left(x\right)\\
-\end{align*}
